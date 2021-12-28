@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+header {
+    display: cover;
+    background-image: url("cookies2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1425px 450px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    padding-top: 50px;
+}
+
+nav {
+    display: block;
+    margin: 0, auto;
+    padding: 25px;
+    background-image: linear-gradient(#C68B59, #fff);
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #865439;
+}
+
+a:hover {
+    color: #8FC1D4;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
