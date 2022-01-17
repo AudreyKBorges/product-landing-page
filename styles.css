@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 
-h2, h3 {
+h2, h3, h4 {
     font-family: 'Neonderthaw', cursive;
     font-weight: bold;
     color: brown;
@@ -21,8 +21,12 @@ h2 {
     font-size: 35px;
 }
 
-h3 {
+h3, h4 {
     font-size: 30px;
+}
+
+h4 {
+    color: black;
 }
 
 .email {
@@ -93,7 +97,7 @@ nav {
     align-items: center;
 }
 
-.container {
+.container, form {
     display: flex;
     background: rgba(255,255,255);
     border-radius: 10px;
@@ -106,7 +110,7 @@ nav {
     overflow: hidden;
 }
 
-#email {
+#email, #name, #phone, #textarea {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
@@ -119,6 +123,12 @@ nav {
 	text-align: center; 
     margin: 0 auto;
     border-radius: 2px;
+    margin-top: 10px;
+}
+
+#textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #submit {
@@ -131,6 +141,10 @@ nav {
 	text-align: center; 
     margin: 0 auto;
     border-radius: 2px;
+}
+
+#submit:hover {
+    background-color: yellow;
 }
 
 @media only screen and (max-width: 600px) {
